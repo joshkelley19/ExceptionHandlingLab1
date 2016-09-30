@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7afc99c6-f9ff-4785-93b5-3956e7b72ff7" name="Default" comment="" />
+    <list default="true" id="7afc99c6-f9ff-4785-93b5-3956e7b72ff7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kelley/josh/ExceptionHandlingLab1/Calculator.class" afterPath="$PROJECT_DIR$/target/classes/kelley/josh/ExceptionHandlingLab1/Calculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kelley/josh/ExceptionHandlingLab1/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/kelley/josh/ExceptionHandlingLab1/Calculator.java" />
+    </list>
     <ignored path="ExceptionHandlingLab1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kelley/josh/ExceptionHandlingLab1/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#155#156#0" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
@@ -45,6 +49,18 @@
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionHandlingLabTests1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ExceptionHandlingLab1Tests/ExceptionHandlingLabTests1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +95,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -91,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/main/java/kelley/josh/ExceptionHandlingLab1/DivisionByZeroException.java" />
         <option value="$PROJECT_DIR$/src/main/java/kelley/josh/ExceptionHandlingLab1/ComplexNumberException.java" />
         <option value="$PROJECT_DIR$/src/main/java/kelley/josh/ExceptionHandlingLab1/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExceptionHandlingLab1Tests/ExceptionHandlingLabTests1.java" />
       </list>
     </option>
   </component>
@@ -175,6 +195,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExceptionHandlingLab1Tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -233,7 +265,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="JUnit.ExceptionHandlingLabTests1.squareRootTest0">
     <configuration default="false" name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -252,6 +284,110 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ExceptionHandlingLab1" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExceptionHandlingLabTests1.addTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandlingLab1Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ExceptionHandlingLab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ExceptionHandlingLab1Tests" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandlingLab1Tests.ExceptionHandlingLabTests1" />
+      <option name="METHOD_NAME" value="addTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExceptionHandlingLabTests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandlingLab1Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ExceptionHandlingLab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ExceptionHandlingLab1Tests" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandlingLab1Tests.ExceptionHandlingLabTests1" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExceptionHandlingLabTests1.subtractTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandlingLab1Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ExceptionHandlingLab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ExceptionHandlingLab1Tests" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandlingLab1Tests.ExceptionHandlingLabTests1" />
+      <option name="METHOD_NAME" value="subtractTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExceptionHandlingLabTests1.squareRootTest0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ExceptionHandlingLab1Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ExceptionHandlingLab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ExceptionHandlingLab1Tests" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandlingLab1Tests.ExceptionHandlingLabTests1" />
+      <option name="METHOD_NAME" value="squareRootTest0" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -661,12 +797,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Calculator" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExceptionHandlingLabTests1.addTests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExceptionHandlingLabTests1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExceptionHandlingLabTests1.subtractTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExceptionHandlingLabTests1.squareRootTest0" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Calculator" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExceptionHandlingLabTests1.squareRootTest0" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExceptionHandlingLabTests1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExceptionHandlingLabTests1.subtractTests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExceptionHandlingLabTests1.addTests" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -680,12 +824,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475249000111</updated>
-      <workItem from="1475249004395" duration="867000" />
+      <workItem from="1475249004395" duration="3030000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ExceptionHandlingLabTests1 - 2016.09.30 at 12h 13m 27s.xml">
+      <configuration name="ExceptionHandlingLabTests1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionHandlingLabTests1 - 2016.09.30 at 12h 14m 20s.xml">
+      <configuration name="ExceptionHandlingLabTests1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionHandlingLabTests1 - 2016.09.30 at 12h 18m 30s.xml">
+      <configuration name="ExceptionHandlingLabTests1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionHandlingLabTests1_squareRootTest0 - 2016.09.30 at 12h 19m 12s.xml">
+      <configuration name="ExceptionHandlingLabTests1.squareRootTest0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionHandlingLabTests1_squareRootTest0 - 2016.09.30 at 12h 19m 52s.xml">
+      <configuration name="ExceptionHandlingLabTests1.squareRootTest0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionHandlingLabTests1_subtractTests - 2016.09.30 at 12h 14m 44s.xml">
+      <configuration name="ExceptionHandlingLabTests1.subtractTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionHandlingLabTests1_subtractTests - 2016.09.30 at 12h 14m 53s.xml">
+      <configuration name="ExceptionHandlingLabTests1.subtractTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="867000" />
+    <option name="totallyTimeSpent" value="3030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-358" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -693,7 +860,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -764,8 +931,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kelley/josh/ExceptionHandlingLab1/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#155#156#0" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
@@ -773,6 +940,16 @@
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExceptionHandlingLab1Tests/ExceptionHandlingLabTests1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

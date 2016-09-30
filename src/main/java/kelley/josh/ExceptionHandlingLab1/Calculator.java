@@ -20,7 +20,7 @@ public class Calculator {
         return a/b;
     }
     public static double squareRoot(int a) throws ComplexNumberException {
-        if(Math.sqrt(a)<0){
+        if(a<0){
             throw new ComplexNumberException();
         }
         return Math.sqrt(a);
